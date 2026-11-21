@@ -1,0 +1,5 @@
+{
+  "bucket": "wx-blend-<account-id>",
+  "github_role_arn": "arn:aws:iam::<account-id>:role/wx-blend-github",
+  "sagemaker_role_arn": "arn:aws:iam::<account-id>:role/wx-blend-sagemaker"
+}

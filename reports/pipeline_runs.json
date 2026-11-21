@@ -1,0 +1,142 @@
+[
+  {
+    "execution_arn": "arn:aws:sagemaker:ap-southeast-2:<account-id>:pipeline/wx-blend/execution/rcdwbnhh5ow1",
+    "started": "2026-11-21T19:34:47.323000+13:00",
+    "ended": "2026-11-21T19:34:49.996000+13:00",
+    "status": "Failed",
+    "started_by": "arn:aws:iam::<account-id>:user/<admin-user>",
+    "gate_margin": 0.02,
+    "train_step": null,
+    "steps": {
+      "Prepare": "Failed"
+    },
+    "model_package_arn": null,
+    "model_package_version": null,
+    "approval_status": null
+  },
+  {
+    "execution_arn": "arn:aws:sagemaker:ap-southeast-2:<account-id>:pipeline/wx-blend/execution/2tvtlmrpku6p",
+    "started": "2026-11-21T19:40:55.104000+13:00",
+    "ended": "2026-11-21T19:46:00.078000+13:00",
+    "status": "Failed",
+    "started_by": "arn:aws:iam::<account-id>:user/<admin-user>",
+    "gate_margin": 0.02,
+    "train_step": null,
+    "steps": {
+      "Prepare": "Failed"
+    },
+    "model_package_arn": null,
+    "model_package_version": null,
+    "approval_status": null
+  },
+  {
+    "execution_arn": "arn:aws:sagemaker:ap-southeast-2:<account-id>:pipeline/wx-blend/execution/1n6jy6dwcxgc",
+    "started": "2026-11-21T19:47:05.538000+13:00",
+    "ended": "2026-11-21T19:52:09.982000+13:00",
+    "status": "Failed",
+    "started_by": "arn:aws:iam::<account-id>:user/<admin-user>",
+    "gate_margin": 0.02,
+    "train_step": null,
+    "steps": {
+      "Prepare": "Failed"
+    },
+    "model_package_arn": null,
+    "model_package_version": null,
+    "approval_status": null
+  },
+  {
+    "execution_arn": "arn:aws:sagemaker:ap-southeast-2:<account-id>:pipeline/wx-blend/execution/uyuxsle6b3sq",
+    "started": "2026-11-21T19:53:04.584000+13:00",
+    "ended": "2026-11-21T20:08:19.185000+13:00",
+    "status": "Failed",
+    "started_by": "arn:aws:iam::<account-id>:user/<admin-user>",
+    "gate_margin": 0.02,
+    "train_step": "processing job",
+    "steps": {
+      "Prepare": "Succeeded",
+      "Train": "Succeeded",
+      "Evaluate": "Succeeded",
+      "CheckGate": "Succeeded",
+      "RegisterRejected-RegisterModel": "Failed"
+    },
+    "model_package_arn": null,
+    "model_package_version": null,
+    "approval_status": null
+  },
+  {
+    "execution_arn": "arn:aws:sagemaker:ap-southeast-2:<account-id>:pipeline/wx-blend/execution/zm6u4zpawi9b",
+    "started": "2026-11-21T20:10:36.742000+13:00",
+    "ended": "2026-11-21T20:31:03.056000+13:00",
+    "status": "Failed",
+    "started_by": "arn:aws:iam::<account-id>:user/<admin-user>",
+    "gate_margin": 0.02,
+    "train_step": "processing job",
+    "steps": {
+      "Prepare": "Succeeded",
+      "Train": "Succeeded",
+      "Evaluate": "Succeeded",
+      "CheckGate": "Succeeded",
+      "RegisterRejected-RegisterModel": "Failed"
+    },
+    "model_package_arn": "arn:aws:sagemaker:ap-southeast-2:<account-id>:model-package/wx-blend/1",
+    "model_package_version": 1,
+    "approval_status": "Rejected"
+  },
+  {
+    "execution_arn": "arn:aws:sagemaker:ap-southeast-2:<account-id>:pipeline/wx-blend/execution/i78em7siisup",
+    "started": "2026-11-21T20:36:03.944000+13:00",
+    "ended": "2026-11-21T20:51:16.957000+13:00",
+    "status": "Succeeded",
+    "started_by": "arn:aws:sts::<account-id>:assumed-role/wx-blend-github/GitHubActions",
+    "gate_margin": 0.02,
+    "train_step": "processing job",
+    "steps": {
+      "Prepare": "Succeeded",
+      "Train": "Succeeded",
+      "Evaluate": "Succeeded",
+      "CheckGate": "Succeeded",
+      "RegisterRejected-RegisterModel": "Succeeded"
+    },
+    "model_package_arn": "arn:aws:sagemaker:ap-southeast-2:<account-id>:model-package/wx-blend/2",
+    "model_package_version": 2,
+    "approval_status": "Rejected"
+  },
+  {
+    "execution_arn": "arn:aws:sagemaker:ap-southeast-2:<account-id>:pipeline/wx-blend/execution/npcom23j0h1j",
+    "started": "2026-11-21T21:00:30.753000+13:00",
+    "ended": "2026-11-21T21:15:45.161000+13:00",
+    "status": "Succeeded",
+    "started_by": "arn:aws:sts::<account-id>:assumed-role/wx-blend-github/GitHubActions",
+    "gate_margin": 0.02,
+    "train_step": "processing job",
+    "steps": {
+      "Prepare": "Succeeded",
+      "Train": "Succeeded",
+      "Evaluate": "Succeeded",
+      "CheckGate": "Succeeded",
+      "RegisterRejected-RegisterModel": "Succeeded"
+    },
+    "model_package_arn": "arn:aws:sagemaker:ap-southeast-2:<account-id>:model-package/wx-blend/3",
+    "model_package_version": 3,
+    "approval_status": "Rejected"
+  },
+  {
+    "execution_arn": "arn:aws:sagemaker:ap-southeast-2:<account-id>:pipeline/wx-blend/execution/ctji8nedk4ql",
+    "started": "2026-11-21T21:40:48.705000+13:00",
+    "ended": "2026-11-21T21:56:03.016000+13:00",
+    "status": "Succeeded",
+    "started_by": "arn:aws:sts::<account-id>:assumed-role/wx-blend-github/GitHubActions",
+    "gate_margin": 0.02,
+    "train_step": "processing job",
+    "steps": {
+      "Prepare": "Succeeded",
+      "Train": "Succeeded",
+      "Evaluate": "Succeeded",
+      "CheckGate": "Succeeded",
+      "RegisterRejected-RegisterModel": "Succeeded"
+    },
+    "model_package_arn": "arn:aws:sagemaker:ap-southeast-2:<account-id>:model-package/wx-blend/4",
+    "model_package_version": 4,
+    "approval_status": "Rejected"
+  }
+]

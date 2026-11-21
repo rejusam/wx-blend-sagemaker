@@ -1,0 +1,16 @@
+{
+  "checked_at": "2026-11-21T08:58:38+00:00",
+  "url": "https://wx.rejusamjohn.workers.dev/auckland?format=json&blend=1",
+  "worker_version": "2fc8a6ee-842e-4d18-a869-e7024b326a53",
+  "location": "Auckland",
+  "blend": {
+    "date": "2026-11-22",
+    "max": 20.8,
+    "place": "auckland",
+    "method": "inverse_mae_45d",
+    "model_version": 4,
+    "weights_as_of": "2026-11-14"
+  },
+  "consensus_max_tomorrow": 20.5,
+  "tomorrow": "2026-11-22"
+}

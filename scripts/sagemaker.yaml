@@ -1,0 +1,6 @@
+# SageMaker Python SDK settings for this repo (loaded by pipeline.py).
+SchemaVersion: '1.0'
+SageMaker:
+  PythonSDK:
+    Modules:
+      TelemetryOptOut: true

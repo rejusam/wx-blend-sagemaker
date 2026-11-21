@@ -1,0 +1,13 @@
+{
+  "as_of": "2026-11-21T08:27:47+00:00",
+  "since": "2026-11-21",
+  "processing_jobs": 14,
+  "processing_job_minutes_total": 28.6,
+  "processing_instance_types": [
+    "ml.t3.medium"
+  ],
+  "training_jobs": 0,
+  "jobs_in_progress": 0,
+  "endpoints": 0,
+  "notebook_instances": 0
+}

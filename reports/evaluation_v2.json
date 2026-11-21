@@ -1,0 +1,63 @@
+{
+  "model_package_version": 2,
+  "approval_status": "Rejected",
+  "evaluation_s3_uri": "s3://wx-blend-<account-id>/wx-blend/i78em7siisup/Evaluate/output/evaluation/evaluation.json",
+  "test_days": 90,
+  "test_start": "2026-08-17",
+  "test_end": "2026-11-14",
+  "overall": {
+    "ecmwf_ifs025": 0.765,
+    "gfs_seamless": 1.135,
+    "icon_seamless": 0.789,
+    "jma_seamless": 1.243,
+    "gem_seamless": 1.173,
+    "meteofrance_seamless": 1.21,
+    "mean": 0.665,
+    "inverse_mae_45d": 0.628,
+    "blend": 0.575
+  },
+  "by_place": {
+    "auckland": {
+      "ecmwf_ifs025": 0.841,
+      "gfs_seamless": 0.792,
+      "icon_seamless": 0.664,
+      "jma_seamless": 1.012,
+      "gem_seamless": 0.904,
+      "meteofrance_seamless": 0.724,
+      "mean": 0.649,
+      "inverse_mae_45d": 0.637,
+      "blend": 0.559
+    },
+    "tara-hills": {
+      "ecmwf_ifs025": 0.821,
+      "gfs_seamless": 1.888,
+      "icon_seamless": 1.054,
+      "jma_seamless": 1.576,
+      "gem_seamless": 1.842,
+      "meteofrance_seamless": 2.231,
+      "mean": 0.785,
+      "inverse_mae_45d": 0.703,
+      "blend": 0.599
+    },
+    "wellington": {
+      "ecmwf_ifs025": 0.633,
+      "gfs_seamless": 0.724,
+      "icon_seamless": 0.649,
+      "jma_seamless": 1.141,
+      "gem_seamless": 0.771,
+      "meteofrance_seamless": 0.673,
+      "mean": 0.563,
+      "inverse_mae_45d": 0.545,
+      "blend": 0.567
+    }
+  },
+  "gate": {
+    "margin": 0.02,
+    "passed": 0
+  },
+  "regression_metrics": {
+    "mae": {
+      "value": 0.575
+    }
+  }
+}

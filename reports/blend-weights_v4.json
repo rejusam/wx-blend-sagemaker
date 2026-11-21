@@ -1,0 +1,60 @@
+{
+  "version": 4,
+  "method": "inverse_mae_45d",
+  "models": [
+    "ecmwf_ifs025",
+    "gfs_seamless",
+    "icon_seamless",
+    "jma_seamless",
+    "gem_seamless",
+    "meteofrance_seamless"
+  ],
+  "train_start": "2024-02-05",
+  "train_end": "2026-08-16",
+  "test_mae": {
+    "blend": 0.575,
+    "inverse_mae_45d": 0.628
+  },
+  "places": {
+    "auckland": {
+      "lat": -37.0,
+      "lon": 174.8,
+      "intercept": 0.0,
+      "weights": {
+        "ecmwf_ifs025": 0.1642,
+        "gfs_seamless": 0.177,
+        "icon_seamless": 0.1994,
+        "jma_seamless": 0.1269,
+        "gem_seamless": 0.1401,
+        "meteofrance_seamless": 0.1924
+      }
+    },
+    "tara-hills": {
+      "lat": -44.517,
+      "lon": 169.9,
+      "intercept": 0.0,
+      "weights": {
+        "ecmwf_ifs025": 0.227,
+        "gfs_seamless": 0.1523,
+        "icon_seamless": 0.2416,
+        "jma_seamless": 0.148,
+        "gem_seamless": 0.1241,
+        "meteofrance_seamless": 0.107
+      }
+    },
+    "wellington": {
+      "lat": -41.333,
+      "lon": 174.8,
+      "intercept": 0.0,
+      "weights": {
+        "ecmwf_ifs025": 0.1833,
+        "gfs_seamless": 0.194,
+        "icon_seamless": 0.1876,
+        "jma_seamless": 0.0985,
+        "gem_seamless": 0.1667,
+        "meteofrance_seamless": 0.1699
+      }
+    }
+  },
+  "weights_as_of": "2026-11-14"
+}

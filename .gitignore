@@ -1,0 +1,16 @@
+# Python and tools
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+build/
+
+# Terraform: state and variables stay local, never committed
+.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+.terraform.lock.hcl.bak
+
+# Secrets
+.env

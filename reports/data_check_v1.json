@@ -1,0 +1,29 @@
+{
+  "model_package_version": 1,
+  "approval_status": "Rejected",
+  "evaluation_s3_uri": "s3://wx-blend-<account-id>/wx-blend/zm6u4zpawi9b/Evaluate/output/evaluation/evaluation.json",
+  "start": "2024-02-05",
+  "end": "2026-11-14",
+  "places": [
+    "auckland",
+    "tara-hills",
+    "wellington"
+  ],
+  "rows_before": 3147,
+  "rows": 3003,
+  "rows_dropped": 144,
+  "models_kept": [
+    "ecmwf_ifs025",
+    "gfs_seamless",
+    "icon_seamless",
+    "jma_seamless",
+    "gem_seamless",
+    "meteofrance_seamless"
+  ],
+  "models_dropped": {
+    "ukmo_seamless": "forecast present on 60.1% of days, below 95%",
+    "cma_grapes_global": "forecast present on 91.2% of days, below 95%"
+  },
+  "test_days": 90,
+  "test_start": "2026-08-17"
+}
